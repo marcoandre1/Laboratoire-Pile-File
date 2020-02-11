@@ -11,3 +11,5 @@ Implémentation d'une file avec un tableau dynamique
 Question d'examen : La liste chaînée. 
 
 Il faut d'abord faire le cmake
+
+Reprendre enregistrement à 1h05
