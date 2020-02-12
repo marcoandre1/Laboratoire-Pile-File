@@ -23,5 +23,9 @@ if(BUILD_TESTING)
 
     enable_testing()
 
-    add_subdirectory(gtest)
+    # Add googletest directly to our build. This defines
+    # the gtest and gtest_main targets.
+    add_subdirectory(${CMAKE_CURRENT_BINARY_DIR}/googletest-src
+                     ${CMAKE_CURRENT_BINARY_DIR}/googletest-build
+                     EXCLUDE_FROM_ALL)
 endif()
