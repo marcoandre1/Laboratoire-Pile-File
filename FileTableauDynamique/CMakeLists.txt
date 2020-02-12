@@ -8,7 +8,7 @@ if(BUILD_TESTING)
     include(ExternalProject)
 
     ExternalProject_add(gtest-target
-        GIT_REPOSITORY "https://github.com/google/googletest"
+        GIT_REPOSITORY "https://github.com/google/googletest/"
         CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/extern"
         UPDATE_COMMAND ""
     )
